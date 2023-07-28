@@ -1,0 +1,179 @@
+// reset css
+// variables
+$hover-color: red;
+$base-font-size: 16px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 110px;
+    margin: 0 auto;
+    border: 1px solid red;
+
+    header {
+        // height: 200px
+        display: flex;
+        max-width: 1440px;
+        justify-content: space-between;
+        // width: 1000px;
+        align-items: center;
+
+        nav {
+            width: 800px;
+            display: flex;
+            justify-content: space-between;
+            .nav-span {
+
+                .nav-link {
+                    margin-right: 35px;
+                    text-decoration: none;
+                    font-size: 15px;
+                    line-height: 22.5px;
+                    font-weight: 600;
+                    color: black;
+
+                    &:hover {
+                        color: $hover-color;
+                        font-weight: 600;
+                    }
+                }
+
+                .acct-border {
+                    border-right: 1px solid grey;
+                    padding-right: 30px;
+                }
+            }
+        }
+    }
+
+    main {
+        .hero-section {
+            display: flex;
+            padding-top: 80px;
+            height: calc(100vh - 64px);
+
+            .left-section {
+                border: 1px solid blue;
+                width:50%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding-right: 120px;
+
+                .left-section-btn{
+                    button{
+                        border:none;
+                        background-color:transparent;
+                        color:rgb(184, 182,182);
+                        font-weight: 600;
+                        margin-right: 5px;
+                    }
+                }
+
+                h3 {
+                    font-size: 54px;
+                    padding: 40px 0;
+                }
+
+                p {
+                    font-size: 16px;
+                    margin-bottom: 50px;
+                }
+                .btn-container{
+                    display: flex;
+                    .hero-link{
+                        padding:12px;
+                        background-color: #b00000;
+                        color: #ffffff;
+                        text-decoration: none;
+                        border-radius: 8px;
+                        display: inline-block;
+                        margin-right: 24px;
+    
+                    }
+                    .hero-btn{
+                        padding:12px;
+                        background-color: #ffffff;
+                        border: 1px solid #000000;
+                        border-radius: 8px;
+                    }
+                }
+               
+            }
+            .right-section {
+            border: 1px solid red; 
+            width:50%;
+            background-image: url("hero image.png");
+            background-repeat: no repeat;
+            background-size: contain;
+            position: relative;
+
+            .triangle-one{
+                width: 40px;
+                height: 40px;
+                // background-color: red;
+                display: block;
+                border-left: 20px solid transparent;
+                border-right: 20px solid #b00000;
+                border-top: 20px solid transparent;
+                border-bottom: 20px solid #b00000;
+                // border-radius: 50%;
+                position: absolute;
+                right: -20px;
+                top:40px;
+            }
+
+            .triangle-two{
+                width: 72px;
+                height: 72px;
+                // background-color: red;
+                display: block;
+                border-right: 36px solid #b00000;
+                border-bottom: 36px solid #b00000;
+                border-left: 36px solid transparent;
+                border-top: 36px solid transparent;
+                // border-radius: 50%;
+                position: absolute;
+                right: -20px;
+                bottom: 50px;
+
+            }
+            .triangle-three{
+                width: 40px;
+                height: 40px;
+                // background-color: red;
+                display: block;
+                border-left: 20px solid #b00000;
+                border-right:20px solid transparent;
+                border-bottom:20px solid #b00000;
+                border-top: 20px solid transparent;        
+                // border-radius: 50%;
+                position: absolute;
+                bottom: 120px;
+                left: -20px;}
+        }
+        
+         }
+         .sponsors{
+        margin: 80px 0;
+
+        .sponsor-top{
+            display: flex;
+
+            .sponsor-top-left{
+                width:50%
+            }
+            .sponsor-top-right{
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                
+            }
+        }
+         }
+        }  
+    }
