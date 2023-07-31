@@ -128,6 +128,7 @@ body main .hero-section .right-section .triangle-three {
 }
 body main .sponsors {
   margin: 80px 0;
+  font-family: poppins;
 }
 body main .sponsors .sponsor-top {
   display: flex;
@@ -139,4 +140,64 @@ body main .sponsors .sponsor-top .sponsor-top-right {
   width: 50%;
   display: flex;
   flex-wrap: wrap;
+}
+body main .sponsors .sponsor-top .sponsor-top-right img {
+  display: block;
+  width: 120px;
+}
+body main .sponsors .sponsor-bottom {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+body main .sponsors .sponsor-bottom .services-card {
+  font-size: small;
+  text-align: center;
+  margin-left: 40px;
+}
+body main .sponsors .sponsor-bottom .services-card .icons {
+  font-family: poppins;
+}
+body main .sponsors .sponsor-bottom .services-card .icons h3 {
+  font-weight: 700;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+body main .sponsors .sponsor-bottom .services-card .icons .icon-text {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+body main .Pricing {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  text-align: center;
+}
+body main .Pricing .pricing-top {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 120px;
+}
+body main .Pricing .pricing-top h1 {
+  font-size: 25px;
+  font-weight: 700px;
+  margin-bottom: 50px;
+}
+body main .Pricing .pricing-top h4 {
+  font-size: medium;
+  font-weight: 200px;
+}
+body main .Pricing .pricing-bottom .pricing-bottom-header button {
+  padding-top: 50px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
